@@ -1,0 +1,116 @@
+/* ==UserStyle==
+@name        OGS Roman Empire Background - Full Styling
+@namespace   userstyles
+@match       https://online-go.com/user/view/678199*
+==/UserStyle== */
+
+/* Import Roman-style font */
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&display=swap');
+
+body, html, #root, #app, .app-container {
+  background-image: url('https://wallpapercave.com/wp/wp1939718.jpg') !important;
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+  background-position: center !important;
+  background-attachment: fixed !important;
+  background-color: black !important;
+  font-family: 'Cinzel', serif !important;
+}
+
+/* Override OGS dark mode backgrounds */
+body.accessible #main-content,
+body.accessible #main-content > div,
+body.accessible body,
+body.accessible html,
+body.dark #main-content,
+body.dark #main-content > div,
+body.dark body,
+body.dark html {
+  background: transparent !important;
+  background-color: transparent !important;
+  box-shadow: none !important;
+}
+
+body, body * {
+  color: #ded8c8 !important; /* pillar stone color */
+  font-weight: 800 !important;
+  text-shadow:
+    -0.5px -0.5px 0 black,
+     0.5px -0.5px 0 black,
+    -0.5px  0.5px 0 black,
+     0.5px  0.5px 0 black !important;
+  font-family: 'Cinzel', serif !important;
+}
+/* Target the header - adjust selector if needed */
+header, .header, #header, .site-header {
+  background-image: url('https://images.ctfassets.net/u73tyf0fa8v1/JayETYbVuvuY35GbgKejn/b6a5c49b25213fe795ab910e2bf008a5/IMIM01DSK0000010_largeBackground.jpg?w=1920&q=75') !important;
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+  background-position: center !important;
+  background-color: transparent !important;
+  box-shadow: none !important;
+}
+
+/* Remove background from header containers if any */
+header *, .header *, #header *, .site-header * {
+  background: transparent !important;
+  box-shadow: none !important;
+}
+/* Target card containers with a broad selector */
+div[class*="card"], div[class*="panel"], section[class*="card"], section[class*="panel"] {
+  background-image: url('https://images2.alphacoders.com/993/993313.jpg') !important;
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+  background-position: center !important;
+  background-color: transparent !important;
+  box-shadow: none !important;
+}
+
+/* Remove background and shadows from nested elements */
+div[class*="card"] *, div[class*="panel"] *, section[class*="card"] *, section[class*="panel"] * {
+  background: transparent !important;
+  box-shadow: none !important;
+}
+.card, .card-content {
+  background-image: url('https://images2.alphacoders.com/993/993313.jpg') !important;
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+  background-position: center !important;
+  background-color: transparent !important;
+  box-shadow: none !important;
+}
+
+/* Make sure nested content backgrounds don’t block */
+.card *, .card-content * {
+  background: transparent !important;
+  box-shadow: none !important;
+}
+.about, .about-container, #about {
+  background-image: url('https://images.ctfassets.net/u73tyf0fa8v1/JayETYbVuvuY35GbgKejn/b6a5c49b25213fe795ab910e2bf008a5/IMIM01DSK0000010_largeBackground.jpg?w=1920&q=75') !important;
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+  background-position: center !important;
+  background-color: transparent !important;
+  box-shadow: none !important;
+}
+
+/* Clear backgrounds inside */
+.about *, .about-container *, #about * {
+  background: transparent !important;
+  box-shadow: none !important;
+}
+/* Target table wrapper or container */
+.table, .paginated-table, .table-wrapper, .ogs-table, table {
+  background-image: url('https://images.ctfassets.net/u73tyf0fa8v1/JayETYbVuvuY35GbgKejn/b6a5c49b25213fe795ab910e2bf008a5/IMIM01DSK0000010_largeBackground.jpg?w=1920&q=75') !important;
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+  background-position: center !important;
+  background-color: transparent !important;
+  box-shadow: none !important;
+}
+
+/* Remove background from nested elements inside tables */
+.table *, .paginated-table *, .table-wrapper *, .ogs-table *, table * {
+  background: transparent !important;
+  box-shadow: none !important;
+}
