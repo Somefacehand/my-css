@@ -43,7 +43,7 @@ body, body * {
 }
 /* Target the header - adjust selector if needed */
 header, .header, #header, .site-header {
-  background-image: url('https://somefacehand.github.io/my-css/background3.jpg') !important;
+  background-image: url('https://somefacehand.github.io/my-css/background4.jpg') !important;
   background-repeat: no-repeat !important;
   background-size: cover !important;
   background-position: center !important;
@@ -86,7 +86,7 @@ div[class*="card"] *, div[class*="panel"] *, section[class*="card"] *, section[c
   box-shadow: none !important;
 }
 .about, .about-container, #about {
-  background-image: url('https://somefacehand.github.io/my-css/background3.jpg') !important;
+  background-image: url('https://somefacehand.github.io/my-css/background4.jpg') !important;
   background-repeat: no-repeat !important;
   background-size: cover !important;
   background-position: center !important;
@@ -101,7 +101,7 @@ div[class*="card"] *, div[class*="panel"] *, section[class*="card"] *, section[c
 }
 /* Target table wrapper or container */
 .table, .paginated-table, .table-wrapper, .ogs-table, table {
-  background-image: url('https://somefacehand.github.io/my-css/background3.jpg') !important;
+  background-image: url('https://somefacehand.github.io/my-css/background4.jpg') !important;
   background-repeat: no-repeat !important;
   background-size: cover !important;
   background-position: center !important;
