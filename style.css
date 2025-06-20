@@ -5,6 +5,7 @@
 ==/UserStyle== */
 
 /* Import Roman-style font */
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css');
 @import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&display=swap');
 
 body, html, #root, #app, .app-container {
@@ -14,7 +15,7 @@ body, html, #root, #app, .app-container {
   background-position: center !important;
   background-attachment: fixed !important;
   background-color: black !important;
-  font-family: 'Cinzel', serif !important;
+  font-family: 'Cinzel', 'Times New Roman', 'Segoe UI Symbol', 'Apple Color Emoji', 'Segoe UI Emoji', serif !important;
 }
 
 /* Override OGS dark mode backgrounds */
@@ -31,7 +32,7 @@ body.dark html {
   box-shadow: none !important;
 }
 
-body, body * {
+body, body *:not(.fa):not([class*="fa-"]) {
   color: #ded8c8 !important; /* pillar stone color */
   font-weight: 800 !important;
   text-shadow:
@@ -39,7 +40,17 @@ body, body * {
      0.5px -0.5px 0 black,
     -0.5px  0.5px 0 black,
      0.5px  0.5px 0 black !important;
-  font-family: 'Cinzel', serif !important;
+  font-family: 'Cinzel', 'Times New Roman', serif !important;
+}
+
+.fa, [class*="fa-"] {
+  font-family: "Font Awesome 5 Free" !important;
+  font-weight: 900 !important;
+  speak: none;
+  font-style: normal;
+  font-variant: normal;
+  text-rendering: auto;
+  line-height: 1;
 }
 /* Target the header - adjust selector if needed */
 header, .header, #header, .site-header {
@@ -114,3 +125,5 @@ div[class*="card"] *, div[class*="panel"] *, section[class*="card"] *, section[c
   background: transparent !important;
   box-shadow: none !important;
 }
+
+
