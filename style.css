@@ -8,7 +8,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&display=swap');
 
 body, html, #root, #app, .app-container {
-  background-image: url('https://github.com/Somefacehand/my-css/blob/main/landing.jpg') !important;
+  background-image: url('https://somefacehand.github.io/my-css/landing.jpg') !important;
   background-repeat: no-repeat !important;
   background-size: cover !important;
   background-position: center !important;
