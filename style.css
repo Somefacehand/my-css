@@ -43,7 +43,7 @@ body, body * {
 }
 /* Target the header - adjust selector if needed */
 header, .header, #header, .site-header {
-  background-image: url('https://images.ctfassets.net/u73tyf0fa8v1/JayETYbVuvuY35GbgKejn/b6a5c49b25213fe795ab910e2bf008a5/IMIM01DSK0000010_largeBackground.jpg?w=1920&q=75') !important;
+  background-image: url('https://github.com/Somefacehand/my-css/blob/main/background.jpg') !important;
   background-repeat: no-repeat !important;
   background-size: cover !important;
   background-position: center !important;
@@ -58,7 +58,7 @@ header *, .header *, #header *, .site-header * {
 }
 /* Target card containers with a broad selector */
 div[class*="card"], div[class*="panel"], section[class*="card"], section[class*="panel"] {
-  background-image: url('https://images2.alphacoders.com/993/993313.jpg') !important;
+  background-image: url('https://github.com/Somefacehand/my-css/blob/main/aboutside.jpg') !important;
   background-repeat: no-repeat !important;
   background-size: cover !important;
   background-position: center !important;
@@ -72,7 +72,7 @@ div[class*="card"] *, div[class*="panel"] *, section[class*="card"] *, section[c
   box-shadow: none !important;
 }
 .card, .card-content {
-  background-image: url('https://images2.alphacoders.com/993/993313.jpg') !important;
+  background-image: url('https://github.com/Somefacehand/my-css/blob/main/aboutside.jpg') !important;
   background-repeat: no-repeat !important;
   background-size: cover !important;
   background-position: center !important;
@@ -86,7 +86,7 @@ div[class*="card"] *, div[class*="panel"] *, section[class*="card"] *, section[c
   box-shadow: none !important;
 }
 .about, .about-container, #about {
-  background-image: url('https://images.ctfassets.net/u73tyf0fa8v1/JayETYbVuvuY35GbgKejn/b6a5c49b25213fe795ab910e2bf008a5/IMIM01DSK0000010_largeBackground.jpg?w=1920&q=75') !important;
+  background-image: url('https://github.com/Somefacehand/my-css/blob/main/background.jpg') !important;
   background-repeat: no-repeat !important;
   background-size: cover !important;
   background-position: center !important;
@@ -101,7 +101,7 @@ div[class*="card"] *, div[class*="panel"] *, section[class*="card"] *, section[c
 }
 /* Target table wrapper or container */
 .table, .paginated-table, .table-wrapper, .ogs-table, table {
-  background-image: url('https://images.ctfassets.net/u73tyf0fa8v1/JayETYbVuvuY35GbgKejn/b6a5c49b25213fe795ab910e2bf008a5/IMIM01DSK0000010_largeBackground.jpg?w=1920&q=75') !important;
+  background-image: url('https://github.com/Somefacehand/my-css/blob/main/background.jpg') !important;
   background-repeat: no-repeat !important;
   background-size: cover !important;
   background-position: center !important;
