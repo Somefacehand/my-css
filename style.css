@@ -162,3 +162,14 @@ body .about-markdown *:not(.fa):not([class*="fa-"]) {
 .MainSection {
   background-color: transparent !important;
 }
+i.speed-icon.ogs-turtle {
+  font-family: 'ogs-font' !important; /* use the actual OGS font name */
+  font-style: normal !important;
+  font-weight: normal !important;
+  speak: none !important;
+  line-height: 1 !important;
+  text-rendering: auto !important;
+  -webkit-font-smoothing: antialiased !important;
+  -moz-osx-font-smoothing: grayscale !important;
+  color: inherit !important;
+}
