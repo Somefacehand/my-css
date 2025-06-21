@@ -17,7 +17,15 @@ body, html, #root, #app, .app-container {
   background-color: black !important;
   font-family: 'Cinzel', 'Times New Roman', 'Segoe UI Symbol', 'Apple Color Emoji', 'Segoe UI Emoji', serif !important;
 }
-
+/* Target the header - adjust selector if needed */
+header, .header, #header, .site-header {
+  background-image: url('https://somefacehand.github.io/my-css/background4.jpg') !important;
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+  background-position: center !important;
+  background-color: transparent !important;
+  box-shadow: none !important;
+}
 /* Override OGS dark mode backgrounds */
 body.accessible #main-content,
 body.accessible #main-content > div,
@@ -52,15 +60,7 @@ body, body *:not(.fa):not([class*="fa-"]) {
   text-rendering: auto;
   line-height: 1;
 }
-/* Target the header - adjust selector if needed */
-header, .header, #header, .site-header {
-  background-image: url('https://somefacehand.github.io/my-css/background4.jpg') !important;
-  background-repeat: no-repeat !important;
-  background-size: cover !important;
-  background-position: center !important;
-  background-color: transparent !important;
-  box-shadow: none !important;
-}
+
 
 /* Remove background from header containers if any */
 header *, .header *, #header *, .site-header * {
@@ -126,4 +126,26 @@ div[class*="card"] *, div[class*="panel"] *, section[class*="card"] *, section[c
   box-shadow: none !important;
 }
 
-
+.GameList.GobanLineSummaryContainer {
+  background-image: url('https://somefacehand.github.io/my-css/background4.jpg') !important;
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+  background-position: center !important;
+  background-color: transparent !important;
+  box-shadow: none !important;
+}
+.GameList.GobanLineSummaryContainer * {
+  background: transparent !important;
+  box-shadow: none !important;
+}
+body .about-markdown, 
+body .about-markdown *:not(.fa):not([class*="fa-"]) {
+  color: #F2F1EC !important;
+  font-family: 'Cinzel', 'Times New Roman', serif !important;
+  font-weight: 800 !important;
+  text-shadow:
+    -0.5px -0.5px 0 black,
+     0.5px -0.5px 0 black,
+    -0.5px  0.5px 0 black,
+     0.5px  0.5px 0 black !important;
+}
